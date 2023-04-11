@@ -5,7 +5,7 @@ import time
 
 def send_message():
     resp = requests.post('http://textbelt.com/text', {
-        'phone': '+92(320)5489211',
+        'phone': '-',
         'message': 'Hey, this message is being sent through a python automation program',
         'key': 'textbelt'})
     print(resp.json())
